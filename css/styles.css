@@ -457,7 +457,7 @@ body {
 
 /* Icons */
 
-.contact-icon {
+.contacts-nav__icon {
   display: inline-block;
   margin-right: 10px;
   fill: currentColor;
