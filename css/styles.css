@@ -37,7 +37,7 @@ body {
   line-height: 1.19;
   color: var(--header-logo-color);
 }
-.accent-logo {
+.logo__accent {
   color: var(--accent-color);
 }
 
@@ -159,20 +159,15 @@ body {
   margin-left: auto;
 }
 
-.page-nav {
+.navigation {
   display: flex;
 }
 
-.page-nav .logo {
+.navigation .logo {
   display: flex;
   align-items: center;
 }
 
-.main-nav {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 
 .contacts-nav .item:not(:last-child) {
   padding-right: 50px;
@@ -353,6 +348,9 @@ body {
 }
 
 .header-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border-bottom: 1px solid #ececec;
 }
 .section {
