@@ -750,14 +750,14 @@ body {
   border-radius: 4px;
 }
 
-.form-field {
+.modal__form-field {
   width: 100%;
   margin-top: 0;
   display: flex;
   flex-direction: column;
 }
 
-.form-field .icon {
+.modal__form-field .icon {
   position: absolute;
   bottom: 11px;
   left: 14px;
@@ -788,7 +788,7 @@ body {
   margin-left: 8.38px;
 }
 
-.modal-title-lext {
+.modal__title {
   margin-top: 0;
   margin-bottom: 12px;
   text-align: center;
@@ -798,7 +798,7 @@ body {
   color: #212121;
 }
 
-.form-label {
+.modal__form-label {
   position: relative;
   display: block;
   display: flex;
@@ -807,11 +807,11 @@ body {
   margin-top: 10px;
 }
 
-.form-label:first-child {
+.modal__form-label:first-child {
   margin-top: 0px;
 }
 
-.form-input {
+.modal__form-input {
   width: 100%;
   height: 40px;
   padding: 0;
@@ -823,19 +823,19 @@ body {
   border-radius: 4px;
 }
 
-.form-input:hover {
+.modal__form-input:hover {
   border-color: var(--accent-color);
 }
 
-.form-input:hover + .icon {
+.modal__form-input:hover + .icon {
   fill: var(--accent-color);
 }
 
-.form-input:focus {
+.modal__form-input:focus {
   border-color: var(--accent-color);
 }
 
-.form-input:focus + .icon {
+.modal__form-input:focus + .icon {
   fill: var(--accent-color);
 }
 
@@ -850,7 +850,7 @@ body {
   margin-right: 8.38px;
 }
 
-.form-textarea::placeholder {
+.modal__form-textarea::placeholder {
   font-weight: 400;
   font-size: 12px;
   line-height: 14px;
@@ -859,7 +859,7 @@ body {
   color: rgba(117, 117, 117, 0.5);
 }
 
-.form-textarea {
+.modal__form-textarea {
   margin-top: 4px;
   padding: 12px 16px;
   width: 448px;
