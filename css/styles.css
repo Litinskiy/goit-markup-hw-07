@@ -181,7 +181,7 @@ body {
   color: var(--primery-title-color);
 }
 
-.benefits-section .text {
+.features .text {
   margin-top: 0;
   margin-bottom: 0;
   width: 270px;
@@ -299,7 +299,7 @@ body {
   margin-bottom: 9px;
 }
 
-.benefits-section .text {
+.features .text {
   line-height: 1.71;
 }
 
@@ -363,7 +363,7 @@ body {
   text-align: center;
 }
 
-.benefits-section-container,
+.features__container,
 .portfolio-button-container {
   padding-bottom: 0;
 }
