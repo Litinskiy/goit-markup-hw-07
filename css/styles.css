@@ -661,11 +661,11 @@ body {
 
 /* Work position */
 
-.picture-relative {
+.work-design {
   position: relative;
 }
 
-.backgroung-picture {
+.work-backgroung {
   position: absolute;
   left: 0;
   bottom: 0;
@@ -674,7 +674,7 @@ body {
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8));
 }
 
-.picture-text {
+.work-backgroung__text {
   position: absolute;
   left: 107px;
   bottom: 27px;
