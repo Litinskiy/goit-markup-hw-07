@@ -104,7 +104,7 @@ body {
   border: 0;
 }
 
-.work-title,
+.work__title,
 .staff-title,
 .clients-title {
   margin-top: 0;
@@ -368,7 +368,7 @@ body {
   padding-bottom: 0;
 }
 
-.work-section-container {
+.work {
   padding-bottom: 94px;
 }
 
@@ -402,7 +402,7 @@ body {
   margin-right: 30px;
 }
 
-.work-section {
+.work__section {
   display: flex;
   justify-content: space-between;
 }
