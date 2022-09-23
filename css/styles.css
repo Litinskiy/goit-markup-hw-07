@@ -783,7 +783,7 @@ body {
   fill: var(--accent-color);
 }
 
-.modal-text {
+.checkbox-form__modal-text {
   margin: 0;
   margin-left: 8.38px;
 }
@@ -839,14 +839,9 @@ body {
   fill: var(--accent-color);
 }
 
-.checkbox-form {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  margin-top: 18px;
-}
 
-.hidden {
+
+.checkbox-form__hidden {
   margin-right: 8.38px;
 }
 
@@ -890,11 +885,11 @@ body {
   color: var(--primary-white-color);
 }
 
-.form-privacy {
+.modal__form-privacy {
   position: relative;
 }
 
-.form-privacy .icon {
+.modal__form-privacy .icon {
   position: absolute;
   top: 17px;
   left: -2px;
@@ -903,20 +898,21 @@ body {
 .checkbox-form {
   display: flex;
   flex-direction: row;
+  align-items: center;
   margin-top: 18px;
 }
 
-.form-privacy {
+.modal__form-privacy {
   position: relative;
 }
 
-.form-privacy .icon {
+.modal__form-privacy .icon {
   position: absolute;
   top: 50px;
   left: -2px;
 }
 
-.checkbox:checked + .icon {
+.checkbox:checked+.icon {
   background-color: var(--accent-color);
 }
 
