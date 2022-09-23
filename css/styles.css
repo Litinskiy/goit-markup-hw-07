@@ -187,7 +187,7 @@ body {
   width: 270px;
 }
 
-.team__name {
+.business-card__name {
   margin-top: 0;
   margin-bottom: 10px;
   font-weight: 500;
@@ -407,7 +407,7 @@ body {
   justify-content: space-between;
 }
 
-.team__card {
+.team__cards-list {
   display: flex;
   justify-content: space-between;
 }
@@ -449,7 +449,7 @@ body {
   background-size: cover;
 }
 
-.card:hover {
+.cards:hover {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
 
@@ -474,7 +474,7 @@ body {
   background-color: var(--staff-color);
 }
 
-.staff-icon {
+.icons-list {
   display: flex;
   justify-content: center;
   margin-top: 16px;
@@ -485,7 +485,7 @@ body {
   height: 44px;
 }
 
-.staff-icon .item:not(:last-child) {
+.icons-list .item:not(:last-child) {
   margin-right: 10px;
 }
 
