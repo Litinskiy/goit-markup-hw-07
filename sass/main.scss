@@ -5,14 +5,21 @@
 //base
 @import "./base/components";
 @import "./base/base";
+@import "./base/section";
 //components
 @import "./components/buttons";
 @import "./components/logo";
 @import "./components/backdrop";
-@import "./components/modal";
 @import "./components/social-list";
 @import "./components/title";
+@import "./components/address";
+@import "./components/contacts";
 //layout
 @import "./layout/header";
 @import "./layout/hero";
 @import "./layout/features";
+@import "./layout/clients";
+@import "./layout/footer";
+@import "./layout/modal";
+@import "./layout/project";
+@import "./layout/team";
