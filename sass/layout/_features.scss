@@ -1,14 +1,14 @@
 
-.features-list {
+.features__features-list {
     display: flex;
     flex-direction: row;
 }
 
-.features-list .item:not(:last-child) {
+.features__features-list .item:not(:last-child) {
     margin-right: 30px;
 }
 
-.features-list__details {
+.features__details {
     display: flex;
     justify-content: center;
     align-items: center;
