@@ -15,7 +15,7 @@
   color: var(--accent-color);
 } */
 
-.contacts-nav__link {
+/* .contacts-nav__link {
   display: flex;
   align-items: center;
   color: var(--primary-text-color);
@@ -29,7 +29,7 @@
 .contacts-nav__link:hover,
 .contacts-nav__link:focus {
   color: var(--accent-color);
-}
+} */
 
 
 /* .hero {
@@ -74,7 +74,7 @@
   border: 0;
 } */
 
-.work__title,
+/* .work__title,
 .team__title,
 .clients__title {
   margin-top: 0;
@@ -87,7 +87,7 @@
   font-size: 36px;
   line-height: 1.17;
   color: var(--primery-title-color);
-}
+} */
 
 /* .team__title {
   width: 264px;
@@ -119,55 +119,55 @@
   color: var(--accent-color);
 } */
 
-.site-nav {
+/* .site-nav {
   display: flex;
 }
 
 .site-nav .item + .item {
   margin-left: 50px;
-}
+} */
 
-.contacts-nav {
+/* .contacts-nav {
   display: flex;
   margin-left: auto;
-}
+} */
 
-.navigation {
+/* .navigation {
   display: flex;
 }
 
 .navigation .logo {
   display: flex;
   align-items: center;
-}
+} */
 
-.contacts-nav .item:not(:last-child) {
+/* .contacts-nav .item:not(:last-child) {
   padding-right: 50px;
-}
+} */
 
-.features-list__title {
+/* .features-list__title {
   margin-top: 0;
   margin-bottom: 10px;
   width: 270px;
   font-size: 14px;
   line-height: 1.14;
   color: var(--primery-title-color);
-}
+} */
 
-.features__text {
+/* .features__text {
   margin-top: 0;
   margin-bottom: 0;
   width: 270px;
-}
+} */
 
-.business-card__name {
+/* .business-card__name {
   margin-top: 0;
   margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
   color: var(--primery-title-color);
-}
+} */
 
 .team {
   background-color: var(--staff-color);
@@ -259,18 +259,18 @@
   margin-bottom: 9px;
 }
 
-.features .text {
+/* .features__text {
   line-height: 1.71;
-}
+} */
 
-.business-card {
+/* .business-card {
   padding-top: 30px;
   padding-bottom: 30px;
   width: 270px;
   height: 168px;
   text-align: center;
   background-color: var(--primary-white-color);
-}
+} */
 
 .business-card .text {
   display: inline-block;
@@ -415,11 +415,11 @@
 
 /* Icons */
 
-.contacts-nav__icon {
+/* .contacts-nav__icon {
   display: inline-block;
   margin-right: 10px;
   fill: currentColor;
-}
+} */
 
 .features-list__details {
   display: flex;
@@ -628,7 +628,7 @@
 
 /* active */
 
-.site-nav__link--current::after {
+/* .site-nav__link--current::after {
   content: '';
   position: absolute;
   display: block;
@@ -640,7 +640,7 @@
   opacity: 1;
   background-color: var(--accent-color);
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
 /* Work position */
 

@@ -1,0 +1,27 @@
+.clients__title {
+    margin-bottom: 50px;
+}
+
+.work__title,
+.team__title,
+.clients__title {
+    margin-top: 0;
+    margin-bottom: 50px;
+    width: 366px;
+    margin-left: auto;
+    margin-right: auto;
+
+    text-align: center;
+    font-size: 36px;
+    line-height: 1.17;
+    color: var(--primery-title-color);
+}
+
+.features-list__title {
+    margin-top: 0;
+    margin-bottom: 10px;
+    width: 270px;
+    font-size: 14px;
+    line-height: 1.14;
+    color: var(--primery-title-color);
+}
