@@ -1,5 +1,3 @@
-
-
 .project-examples {
     padding: 20px 24px;
     width: 370px;
@@ -7,6 +5,10 @@
     border: 1px solid #eeeeee;
 }
 
-.project-examples .text {
-    margin: 0;
+.project-examples__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
 }

@@ -64,3 +64,8 @@
     border-color: var(--accent-color);
     fill: var(--accent-color);
 }
+
+.social-icon-list__link {
+    fill: var(--primary-white-color);
+    background-color: rgba(255, 255, 255, 0.1);
+}
