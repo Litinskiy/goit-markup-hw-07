@@ -5,12 +5,14 @@
 @import "./utils/hidden";
 //base
 @import "./base/components";
+@import "./base/container";
 @import "./base/base";
 @import "./base/section";
 //components
 @import "./components/buttons";
 @import "./components/logo";
 @import "./components/navigation";
+@import "./components/project-overlay";
 @import "./components/backdrop";
 @import "./components/links";
 @import "./components/social-list";
