@@ -911,7 +911,7 @@
     appearance: none;
 } */
 
-/* .checkbox-form_ramka {
+/* .checkbox-form__ramka {
   margin-right: 8.38px;
   width: 16px;
   height: 15px;
@@ -921,7 +921,7 @@
   border-color: var(--primery-title-color);
 }
 
-.checkbox-form__hidden:checked +.checkbox-form_ramka {
+.checkbox-form__hidden:checked +.checkbox-form__ramka {
   background-color: var(--accent-color);
   background-image: url(/images/ptichka.svg);
   background-size: contain;

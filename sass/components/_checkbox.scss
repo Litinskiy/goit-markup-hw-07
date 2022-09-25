@@ -5,11 +5,9 @@
     margin-top: 18px;
 }
 
-.checkbox:checked+.icon {
-    background-color: var(--accent-color);
-}
 
-.checkbox-form_ramka {
+
+&-ramka {
     margin-right: 8.38px;
     width: 16px;
     height: 15px;
@@ -19,14 +17,14 @@
     border-color: var(--primery-title-color);
 }
 
-.checkbox-form__hidden:checked+.checkbox-form_ramka {
+&-hidden:checked+.checkbox-form__ramka {
     background-color: var(--accent-color);
     background-image: url(/images/ptichka.svg);
     background-size: contain;
     border-color: var(--accent-color);
 }
 
-.checkbox-form__hidden {
+&-hidden {
     position: absolute;
     clip: rect(1px 1px 1px 1px);
     clip: rect(1px, 1px, 1px, 1px);
@@ -36,11 +34,15 @@
     width: 1px;
 }
 
-.checkbox-form__modal-text {
+&-modal-text {
     margin: 0;
     margin-left: 8.38px;
 }
 
-.checkbox-form__agreement-link {
+&-agreement-link {
     color: var(--accent-color);
+}
+
+.checkbox:checked+.icon {
+    background-color: var(--accent-color);
 }
