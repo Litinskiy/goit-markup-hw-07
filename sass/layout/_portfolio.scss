@@ -1,0 +1,9 @@
+.portfolio__button-list {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 34px;
+}
+
+.portfolio__button-list .item:not(:last-child) {
+    margin-right: 8px;
+}

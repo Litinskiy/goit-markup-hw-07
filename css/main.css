@@ -331,20 +331,6 @@ body {
   background-color: var(--accent-color);
 }
 
-.portfolio__button-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin-bottom: 34px;
-}
-
-.portfolio__button-list .item:not(:last-child) {
-  margin-right: 8px;
-}
-
 .portfolio__button {
   display: inline-block;
   cursor: pointer;
@@ -368,6 +354,7 @@ body {
 .portfolio__button--current {
   padding: 6px 25px;
   background-color: var(--accent-color);
+  color: var(--primary-white-color);
 }
 
 .portfolio__button:hover,
@@ -608,6 +595,20 @@ body {
 
 .features .text {
   line-height: 1.71;
+}
+
+.portfolio__button-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 34px;
+}
+
+.portfolio__button-list .item:not(:last-child) {
+  margin-right: 8px;
 }
 
 .project-title {
